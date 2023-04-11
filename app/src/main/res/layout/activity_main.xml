@@ -7,27 +7,27 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imgSlot"
+        android:id="@+id/imgSlot2"
         android:layout_width="89dp"
         android:layout_height="83dp"
         android:layout_marginTop="184dp"
-        app:layout_constraintStart_toEndOf="@+id/imgSlot5"
+        app:layout_constraintStart_toEndOf="@+id/imgSlot1"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/slot_3" />
 
     <ImageView
-        android:id="@+id/imgSlot6"
+        android:id="@+id/imgSlot3"
         android:layout_width="89dp"
         android:layout_height="83dp"
         android:layout_marginTop="184dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imgSlot"
+        app:layout_constraintStart_toEndOf="@+id/imgSlot2"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/slot_3" />
 
     <ImageView
-        android:id="@+id/imgSlot5"
+        android:id="@+id/imgSlot1"
         android:layout_width="89dp"
         android:layout_height="83dp"
         android:layout_marginStart="72dp"
@@ -45,6 +45,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgSlot" />
+        app:layout_constraintTop_toBottomOf="@+id/imgSlot2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
